@@ -1,0 +1,43 @@
+body{background-image: url('/storage/emulated/0/luckyz/CSS Task 2-20210619T120102Z-001/CSS Task 2/images/bg-pattern-desktop.svg');}
+
+pre{color: hsl(0, 36%, 70%);font-size:20px}
+
+
+.submainsection{margin-top:100px;width:750px;margin-left: -50px;
+}
+
+
+.cwe{font-size:45px;}
+
+.Ccomingsoon{color: black;font-size:45px;}
+
+
+.Container{display: flex;font-family: 'Josefin Sans', sans-serif; width: auto;height:auto;margin-left: 100px;
+}
+
+
+.myimage{margin-top:100px;}
+
+input{background-color: transparent;
+    
+    width: 280px;height:40px;margin-top:20px;
+    padding:10px;border-radius:20px;
+    margin-left: 12px;
+    border-color:hsl(0, 36%, 70%);
+}
+.cimage{margin-top:20px; width:690px;}
+
+.logo{padding-left: 40px; padding-top:10px;
+    background-color:hsl(0, 74%, 74%);width:50px;height:30px; border-radius:20px;
+    margin-left: 200px;margin-bottom:-60px;
+}
+
+
+@media screen and (max-width:375px){.Container {  flex-direction:column;}
+
+@media all and (max-width: 375px) {
+  .myimage { order: 1; } 
+  .cimage   { order: 2; }
+  .submainsection { order: 3; }
+  
+}
